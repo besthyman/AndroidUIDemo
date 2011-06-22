@@ -1,0 +1,4 @@
+<resources><string-array name="activity_layouts"><item>absolute layout</item>
+<item>frame layout</item>
+</string-array>
+</resources>
