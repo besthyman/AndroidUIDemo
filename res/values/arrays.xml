@@ -1,4 +1,10 @@
-<resources><string-array name="activity_layouts"><item>absolute layout</item>
+<resources><string-array name="activity_layouts">
+<item>absolute layout</item>
 <item>frame layout</item>
+<item>linear layout</item>
+<item>linear layout nested</item>
+<item>relative layout</item>
+<item>relative layout 2</item>
+<item>table layout</item>
 </string-array>
 </resources>

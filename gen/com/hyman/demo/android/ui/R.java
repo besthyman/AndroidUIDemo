@@ -18,13 +18,22 @@ public final class R {
     }
     public static final class id {
         public static final int backbutton=0x7f060000;
-        public static final int layoutbutton=0x7f060002;
-        public static final int layoutspinner=0x7f060001;
+        public static final int editFirstName=0x7f060003;
+        public static final int editLastName=0x7f060004;
+        public static final int firstName=0x7f060001;
+        public static final int lastName=0x7f060002;
+        public static final int layoutbutton=0x7f060006;
+        public static final int layoutspinner=0x7f060005;
     }
     public static final class layout {
         public static final int layout_absolute=0x7f030000;
         public static final int layout_frame=0x7f030001;
-        public static final int main=0x7f030002;
+        public static final int layout_linear=0x7f030002;
+        public static final int layout_linear_nested=0x7f030003;
+        public static final int layout_relative=0x7f030004;
+        public static final int layout_relative2=0x7f030005;
+        public static final int layout_table=0x7f030006;
+        public static final int main=0x7f030007;
     }
     public static final class string {
         public static final int app_name=0x7f050001;

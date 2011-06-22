@@ -18,6 +18,26 @@
         <activity android:name=".layout.absolute.AbsoluteLayoutActivity"
         	android:label="Absolute Layout Demo">
         </activity>
+        
+        <activity android:name=".layout.linear.LinearLayoutActivity"
+        	android:label="Linear Layout Demo">
+        </activity>
+        
+        <activity android:name=".layout.linear.LinearLayoutNestedActivity"
+        	android:label="Linear Layout Nested Demo">
+        </activity>
+        
+        <activity android:name=".layout.relative.RelativeLayoutActivity"
+        	android:label="Relative Layout Demo">
+        </activity>
+        
+        <activity android:name=".layout.relative.RelativeLayout2Activity"
+        	android:label="Relative Layout 2 Demo">
+        </activity>
+        
+        <activity android:name=".layout.table.TableLayoutActivity"
+        	android:label="Table Layout Demo">
+        </activity>
 
     </application>
 
