@@ -10,11 +10,16 @@ package com.hyman.demo.android.ui;
 public final class R {
     public static final class array {
         public static final int activity_layouts=0x7f040000;
+        public static final int activity_widget_buttons=0x7f040001;
     }
     public static final class attr {
     }
     public static final class drawable {
-        public static final int icon=0x7f020000;
+        public static final int button=0x7f020000;
+        public static final int button_focused=0x7f020001;
+        public static final int button_normal=0x7f020002;
+        public static final int button_pressed=0x7f020003;
+        public static final int icon=0x7f020004;
     }
     public static final class id {
         public static final int backbutton=0x7f060000;
@@ -22,8 +27,8 @@ public final class R {
         public static final int editLastName=0x7f060004;
         public static final int firstName=0x7f060001;
         public static final int lastName=0x7f060002;
-        public static final int layoutbutton=0x7f060006;
         public static final int layoutspinner=0x7f060005;
+        public static final int widgetbuttonspinner=0x7f060006;
     }
     public static final class layout {
         public static final int layout_absolute=0x7f030000;
@@ -34,6 +39,7 @@ public final class R {
         public static final int layout_relative2=0x7f030005;
         public static final int layout_table=0x7f030006;
         public static final int main=0x7f030007;
+        public static final int widget_button_states=0x7f030008;
     }
     public static final class string {
         public static final int app_name=0x7f050001;

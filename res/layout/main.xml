@@ -9,11 +9,24 @@
 	android:layout_height="wrap_content"
 	android:entries="@array/activity_layouts"
 	/>
-<Button  
-	android:id="@+id/layoutbutton"
+<Button 
     android:layout_width="wrap_content" 
     android:layout_height="wrap_content" 
     android:text="Load"
+    android:onClick="onLayoutButtonClick"
+    />
+    </TableRow><TableRow>
+<Spinner 
+	android:id="@+id/widgetbuttonspinner" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:entries="@array/activity_widget_buttons"
+	/>
+<Button
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="Load"
+    android:onClick="onWidgetButtonButtonClick"
     />
     </TableRow>
 </TableLayout>

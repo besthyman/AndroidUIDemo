@@ -6,5 +6,9 @@
 <item>relative layout</item>
 <item>relative layout 2</item>
 <item>table layout</item>
+<item>Button States</item>
+</string-array>
+<string-array name="activity_widget_buttons">
+<item>Button States</item>
 </string-array>
 </resources>
