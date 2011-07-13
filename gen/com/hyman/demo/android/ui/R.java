@@ -23,11 +23,15 @@ public final class R {
     }
     public static final class id {
         public static final int backbutton=0x7f060000;
+        public static final int checkbox=0x7f060007;
         public static final int editFirstName=0x7f060003;
         public static final int editLastName=0x7f060004;
         public static final int firstName=0x7f060001;
         public static final int lastName=0x7f060002;
         public static final int layoutspinner=0x7f060005;
+        public static final int radio_blue=0x7f060009;
+        public static final int radio_red=0x7f060008;
+        public static final int togglebutton=0x7f06000a;
         public static final int widgetbuttonspinner=0x7f060006;
     }
     public static final class layout {
@@ -39,7 +43,8 @@ public final class R {
         public static final int layout_relative2=0x7f030005;
         public static final int layout_table=0x7f030006;
         public static final int main=0x7f030007;
-        public static final int widget_button_states=0x7f030008;
+        public static final int widget_button_all=0x7f030008;
+        public static final int widget_button_states=0x7f030009;
     }
     public static final class string {
         public static final int app_name=0x7f050001;

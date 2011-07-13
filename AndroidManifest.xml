@@ -42,6 +42,10 @@
         <activity android:name=".widget.button.ButtonStatesActivity"
         	android:label="ButtonStatesActivity">
         </activity>
+        
+        <activity android:name=".widget.button.ButtonAllActivity"
+        	android:label="ButtonAllActivity">
+        </activity>
 
     </application>
 

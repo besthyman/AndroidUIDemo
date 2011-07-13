@@ -13,6 +13,7 @@ import com.hyman.demo.android.ui.layout.linear.LinearLayoutNestedActivity;
 import com.hyman.demo.android.ui.layout.relative.RelativeLayout2Activity;
 import com.hyman.demo.android.ui.layout.relative.RelativeLayoutActivity;
 import com.hyman.demo.android.ui.layout.table.TableLayoutActivity;
+import com.hyman.demo.android.ui.widget.button.ButtonAllActivity;
 import com.hyman.demo.android.ui.widget.button.ButtonStatesActivity;
 
 public class MainActivity extends Activity {
@@ -64,6 +65,10 @@ public class MainActivity extends Activity {
 			Intent intent = new Intent(this,
 					ButtonStatesActivity.class);
 			this.startActivity(intent);
-		}
+		} else if ("Button All".equals(value)) {
+			Intent intent = new Intent(this,
+					ButtonAllActivity.class);
+			this.startActivity(intent);
+		} 
 	}
 }

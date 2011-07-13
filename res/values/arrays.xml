@@ -10,5 +10,6 @@
 </string-array>
 <string-array name="activity_widget_buttons">
 <item>Button States</item>
+<item>Button All</item>
 </string-array>
 </resources>
