@@ -11,6 +11,8 @@ public final class R {
     public static final class array {
         public static final int activity_layouts=0x7f040000;
         public static final int activity_widget_buttons=0x7f040001;
+        public static final int activity_widget_lists=0x7f040002;
+        public static final int countries_array=0x7f040003;
     }
     public static final class attr {
     }
@@ -20,19 +22,27 @@ public final class R {
         public static final int button_normal=0x7f020002;
         public static final int button_pressed=0x7f020003;
         public static final int icon=0x7f020004;
+        public static final int no=0x7f020005;
+        public static final int ok=0x7f020006;
     }
     public static final class id {
+        public static final int TextView01=0x7f06000e;
         public static final int backbutton=0x7f060000;
-        public static final int checkbox=0x7f060007;
+        public static final int check=0x7f060010;
+        public static final int checkbox=0x7f060008;
         public static final int editFirstName=0x7f060003;
         public static final int editLastName=0x7f060004;
         public static final int firstName=0x7f060001;
+        public static final int icon=0x7f06000d;
+        public static final int label=0x7f06000f;
         public static final int lastName=0x7f060002;
         public static final int layoutspinner=0x7f060005;
-        public static final int radio_blue=0x7f060009;
-        public static final int radio_red=0x7f060008;
-        public static final int togglebutton=0x7f06000a;
+        public static final int listview=0x7f06000c;
+        public static final int radio_blue=0x7f06000a;
+        public static final int radio_red=0x7f060009;
+        public static final int togglebutton=0x7f06000b;
         public static final int widgetbuttonspinner=0x7f060006;
+        public static final int widgetlistspinner=0x7f060007;
     }
     public static final class layout {
         public static final int layout_absolute=0x7f030000;
@@ -45,6 +55,14 @@ public final class R {
         public static final int main=0x7f030007;
         public static final int widget_button_all=0x7f030008;
         public static final int widget_button_states=0x7f030009;
+        public static final int widget_list_footer=0x7f03000a;
+        public static final int widget_list_full=0x7f03000b;
+        public static final int widget_list_header=0x7f03000c;
+        public static final int widget_list_item=0x7f03000d;
+        public static final int widget_list_layout=0x7f03000e;
+        public static final int widget_list_row=0x7f03000f;
+        public static final int widget_list_row_button=0x7f030010;
+        public static final int widget_list_view=0x7f030011;
     }
     public static final class string {
         public static final int app_name=0x7f050001;

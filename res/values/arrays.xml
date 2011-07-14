@@ -1,15 +1,28 @@
-<resources><string-array name="activity_layouts">
-<item>absolute layout</item>
-<item>frame layout</item>
-<item>linear layout</item>
-<item>linear layout nested</item>
-<item>relative layout</item>
-<item>relative layout 2</item>
-<item>table layout</item>
-<item>Button States</item>
-</string-array>
-<string-array name="activity_widget_buttons">
-<item>Button States</item>
-<item>Button All</item>
-</string-array>
+<resources>
+	<string-array name="activity_layouts">
+		<item>absolute layout</item>
+		<item>frame layout</item>
+		<item>linear layout</item>
+		<item>linear layout nested</item>
+		<item>relative layout</item>
+		<item>relative layout 2</item>
+		<item>table layout</item>
+		<item>Button States</item>
+	</string-array>
+	<string-array name="activity_widget_buttons">
+		<item>Button States</item>
+		<item>Button All</item>
+	</string-array>
+	<string-array name="activity_widget_lists">
+		<item>List Activity</item>
+		<item>MyLayoutListActivity</item>
+		<item>List Row Activity</item>
+		<item>List Adapter Activity</item>
+		<item>List Improved Adapter Activity</item>
+		<item>Model List Activity</item>
+		<item>List Single Activity</item>
+		<item>List HeaderFooter Activity</item>
+		<item>Cursor Adapter</item>
+		<item>List View</item>
+	</string-array>
 </resources>

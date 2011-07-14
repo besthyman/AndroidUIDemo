@@ -46,8 +46,47 @@
         <activity android:name=".widget.button.ButtonAllActivity"
         	android:label="ButtonAllActivity">
         </activity>
+        
+        <activity android:name=".widget.list.MyListActivity"
+        	android:label="MyListActivity">
+        </activity>
+        
+        <activity android:name=".widget.list.MyLayoutListActivity"
+        	android:label="MyLayoutListActivity">
+        </activity>
+        
+        <activity android:name=".widget.list.MyListRowActivity"
+        	android:label="MyListRowActivity">
+        </activity>
+        
+        <activity android:name=".widget.list.adapter.MyListAdapterActivity"
+        	android:label="MyListAdapterActivity">
+        </activity>
+        
+        <activity android:name=".widget.list.adapter.MyListImprovedAdapterActivity"
+        	android:label="MyListImprovedAdapterActivity">
+        </activity>
+        
+        <activity android:name=".widget.list.model.ModelListActivity"
+        	android:label="ModelListActivity">
+        </activity>
+        
+        <activity android:name=".widget.list.selection.MySingleListActivity"
+        	android:label="MySingleListActivity">
+        </activity>
+        
+        <activity android:name=".widget.list.MyHeaderFooterListActivity"
+        	android:label="MyHeaderFooterListActivity">
+        </activity>
+        
+        <activity android:name=".widget.list.ListViewActivity"
+        	android:label="ListViewActivity">
+        </activity>
+        
+        <activity android:name=".widget.list.cursor.MySimpleCursorAdapterListActivity"
+        	android:label="MySimpleCursorAdapterListActivity">
+        </activity>
 
     </application>
-
 
 </manifest> 
