@@ -24,4 +24,12 @@
 			android:layout_height="wrap_content" android:text="Load"
 			android:onClick="onWidgetListButtonClick" />
 	</TableRow>
+	<TableRow>
+		<Spinner android:id="@+id/dialogspinner"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:entries="@array/activity_dialogs" />
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Load"
+			android:onClick="onDialogButtonClick" />
+	</TableRow>
 </TableLayout>

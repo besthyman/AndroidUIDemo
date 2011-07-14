@@ -25,4 +25,7 @@
 		<item>Cursor Adapter</item>
 		<item>List View</item>
 	</string-array>
+	<string-array name="activity_dialogs">
+		<item>Alert</item>
+	</string-array>
 </resources>

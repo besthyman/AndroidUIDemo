@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Spinner;
 
+import com.hyman.demo.android.ui.dialog.alert.AlertDialogActivity;
 import com.hyman.demo.android.ui.layout.absolute.AbsoluteLayoutActivity;
 import com.hyman.demo.android.ui.layout.frame.FrameLayoutActivity;
 import com.hyman.demo.android.ui.layout.linear.LinearLayoutActivity;
@@ -105,6 +106,15 @@ public class MainActivity extends Activity {
 			this.startActivity(intent);
 		} else if ("Cursor Adapter".equals(value)) {
 			Intent intent = new Intent(this, MySimpleCursorAdapterListActivity.class);
+			this.startActivity(intent);
+		}
+	}
+
+	public void onDialogButtonClick(View src) {
+		Spinner spinner = (Spinner) this.findViewById(R.id.dialogspinner);
+		String value = spinner.getSelectedItem().toString();
+		if ("Alert".equals(value)) {
+			Intent intent = new Intent(this, AlertDialogActivity.class);
 			this.startActivity(intent);
 		}
 	}

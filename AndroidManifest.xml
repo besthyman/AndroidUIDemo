@@ -86,6 +86,10 @@
         <activity android:name=".widget.list.cursor.MySimpleCursorAdapterListActivity"
         	android:label="MySimpleCursorAdapterListActivity">
         </activity>
+        
+        <activity android:name=".dialog.alert.AlertDialogActivity"
+        	android:label="AlertDialogActivity">
+        </activity>
 
     </application>
 

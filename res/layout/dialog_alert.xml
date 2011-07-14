@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<Button android:text="Alert" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:onClick="showAlertDialog"/>
+	<Button android:text="Alert List" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:onClick="showAlertListDialog"/>
+	<Button android:text="Alert Checkbox" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:onClick="showAlertCheckboxDialog"/>
+	<Button android:text="Alert Radio" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:onClick="showAlertRadioDialog"/>
+	<Button android:text="Alert Message" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:onClick="showAlertMessageDialog"/>
+</LinearLayout>
