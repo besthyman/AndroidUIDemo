@@ -94,6 +94,10 @@
         <activity android:name=".dialog.date.DatePickerActivity"
         	android:label="DatePickerActivity">
         </activity>
+        
+        <activity android:name=".dialog.date.TimePickerActivity"
+        	android:label="TimePickerActivity">
+        </activity>
 
     </application>
 

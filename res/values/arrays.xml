@@ -28,5 +28,6 @@
 	<string-array name="activity_dialogs">
 		<item>Alert</item>
 		<item>Date</item>
+		<item>Time</item>
 	</string-array>
 </resources>
