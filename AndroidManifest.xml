@@ -90,6 +90,10 @@
         <activity android:name=".dialog.alert.AlertDialogActivity"
         	android:label="AlertDialogActivity">
         </activity>
+        
+        <activity android:name=".dialog.date.DatePickerActivity"
+        	android:label="DatePickerActivity">
+        </activity>
 
     </application>
 
