@@ -9,6 +9,7 @@ import android.widget.Spinner;
 import com.hyman.demo.android.ui.dialog.alert.AlertDialogActivity;
 import com.hyman.demo.android.ui.dialog.date.DatePickerActivity;
 import com.hyman.demo.android.ui.dialog.date.TimePickerActivity;
+import com.hyman.demo.android.ui.dialog.progress.ProgressActivity;
 import com.hyman.demo.android.ui.layout.absolute.AbsoluteLayoutActivity;
 import com.hyman.demo.android.ui.layout.frame.FrameLayoutActivity;
 import com.hyman.demo.android.ui.layout.linear.LinearLayoutActivity;
@@ -123,6 +124,9 @@ public class MainActivity extends Activity {
 			this.startActivity(intent);
 		} else if ("Time".equals(value)) {
 			Intent intent = new Intent(this, TimePickerActivity.class);
+			this.startActivity(intent);
+		} else if ("Process".equals(value)) {
+			Intent intent = new Intent(this, ProgressActivity.class);
 			this.startActivity(intent);
 		}
 	}

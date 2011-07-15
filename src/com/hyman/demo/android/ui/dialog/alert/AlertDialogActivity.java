@@ -21,7 +21,7 @@ public class AlertDialogActivity extends Activity {
 	private static final String TAG = "AlertDialogActivity";
 
 	@Override
-	public void onCreate(Bundle savedInstanceState) {
+	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.dialog_alert);
 	}

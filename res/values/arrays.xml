@@ -29,5 +29,6 @@
 		<item>Alert</item>
 		<item>Date</item>
 		<item>Time</item>
+		<item>Process</item>
 	</string-array>
 </resources>

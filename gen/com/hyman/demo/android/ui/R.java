@@ -53,25 +53,26 @@ public final class R {
     public static final class layout {
         public static final int dialog_alert=0x7f030000;
         public static final int dialog_date=0x7f030001;
-        public static final int dialog_time=0x7f030002;
-        public static final int layout_absolute=0x7f030003;
-        public static final int layout_frame=0x7f030004;
-        public static final int layout_linear=0x7f030005;
-        public static final int layout_linear_nested=0x7f030006;
-        public static final int layout_relative=0x7f030007;
-        public static final int layout_relative2=0x7f030008;
-        public static final int layout_table=0x7f030009;
-        public static final int main=0x7f03000a;
-        public static final int widget_button_all=0x7f03000b;
-        public static final int widget_button_states=0x7f03000c;
-        public static final int widget_list_footer=0x7f03000d;
-        public static final int widget_list_full=0x7f03000e;
-        public static final int widget_list_header=0x7f03000f;
-        public static final int widget_list_item=0x7f030010;
-        public static final int widget_list_layout=0x7f030011;
-        public static final int widget_list_row=0x7f030012;
-        public static final int widget_list_row_button=0x7f030013;
-        public static final int widget_list_view=0x7f030014;
+        public static final int dialog_process=0x7f030002;
+        public static final int dialog_time=0x7f030003;
+        public static final int layout_absolute=0x7f030004;
+        public static final int layout_frame=0x7f030005;
+        public static final int layout_linear=0x7f030006;
+        public static final int layout_linear_nested=0x7f030007;
+        public static final int layout_relative=0x7f030008;
+        public static final int layout_relative2=0x7f030009;
+        public static final int layout_table=0x7f03000a;
+        public static final int main=0x7f03000b;
+        public static final int widget_button_all=0x7f03000c;
+        public static final int widget_button_states=0x7f03000d;
+        public static final int widget_list_footer=0x7f03000e;
+        public static final int widget_list_full=0x7f03000f;
+        public static final int widget_list_header=0x7f030010;
+        public static final int widget_list_item=0x7f030011;
+        public static final int widget_list_layout=0x7f030012;
+        public static final int widget_list_row=0x7f030013;
+        public static final int widget_list_row_button=0x7f030014;
+        public static final int widget_list_view=0x7f030015;
     }
     public static final class string {
         public static final int app_name=0x7f050001;

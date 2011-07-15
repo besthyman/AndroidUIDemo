@@ -99,6 +99,10 @@
         	android:label="TimePickerActivity">
         </activity>
 
+        <activity android:name="com.hyman.demo.android.ui.dialog.progress.ProgressActivity"
+        	android:label="ProcessActivity">
+        </activity>
+
     </application>
 
 </manifest> 
