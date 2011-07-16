@@ -12,4 +12,6 @@
 		android:layout_height="wrap_content" android:onClick="showAlertRadioDialog"/>
 	<Button android:text="Alert Message" android:layout_width="wrap_content"
 		android:layout_height="wrap_content" android:onClick="showAlertMessageDialog"/>
+	<Button android:text="Alert Custom" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:onClick="showAlertCustomDialog"/>
 </LinearLayout>

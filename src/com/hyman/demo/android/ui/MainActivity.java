@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Spinner;
 
 import com.hyman.demo.android.ui.dialog.alert.AlertDialogActivity;
+import com.hyman.demo.android.ui.dialog.custom.CustomDialogActivity;
 import com.hyman.demo.android.ui.dialog.date.DatePickerActivity;
 import com.hyman.demo.android.ui.dialog.date.TimePickerActivity;
 import com.hyman.demo.android.ui.dialog.progress.ProgressActivity;
@@ -93,7 +94,8 @@ public class MainActivity extends Activity {
 			Intent intent = new Intent(this, MyListAdapterActivity.class);
 			this.startActivity(intent);
 		} else if ("List Improved Adapter Activity".equals(value)) {
-			Intent intent = new Intent(this, MyListImprovedAdapterActivity.class);
+			Intent intent = new Intent(this,
+					MyListImprovedAdapterActivity.class);
 			this.startActivity(intent);
 		} else if ("Model List Activity".equals(value)) {
 			Intent intent = new Intent(this, ModelListActivity.class);
@@ -101,14 +103,15 @@ public class MainActivity extends Activity {
 		} else if ("List Single Activity".equals(value)) {
 			Intent intent = new Intent(this, MySingleListActivity.class);
 			this.startActivity(intent);
-		}  else if ("List HeaderFooter Activity".equals(value)) {
+		} else if ("List HeaderFooter Activity".equals(value)) {
 			Intent intent = new Intent(this, MyHeaderFooterListActivity.class);
 			this.startActivity(intent);
 		} else if ("List View".equals(value)) {
 			Intent intent = new Intent(this, ListViewActivity.class);
 			this.startActivity(intent);
 		} else if ("Cursor Adapter".equals(value)) {
-			Intent intent = new Intent(this, MySimpleCursorAdapterListActivity.class);
+			Intent intent = new Intent(this,
+					MySimpleCursorAdapterListActivity.class);
 			this.startActivity(intent);
 		}
 	}
@@ -127,6 +130,9 @@ public class MainActivity extends Activity {
 			this.startActivity(intent);
 		} else if ("Process".equals(value)) {
 			Intent intent = new Intent(this, ProgressActivity.class);
+			this.startActivity(intent);
+		} else if ("Custom".equals(value)) {
+			Intent intent = new Intent(this, CustomDialogActivity.class);
 			this.startActivity(intent);
 		}
 	}

@@ -30,5 +30,6 @@
 		<item>Date</item>
 		<item>Time</item>
 		<item>Process</item>
+		<item>Custom</item>
 	</string-array>
 </resources>
