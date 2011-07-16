@@ -32,4 +32,9 @@
 		<item>Process</item>
 		<item>Custom</item>
 	</string-array>
+	<string-array name="activity_menus">
+		<item>Options</item>
+		<item>Context</item>
+		<item>Sub</item>
+	</string-array>
 </resources>

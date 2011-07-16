@@ -107,6 +107,10 @@
         	android:label="CustomDialogActivity">
         </activity>
 
+        <activity android:name=".menu.options.OptionsMenuActivity"
+        	android:label="OptionsMenuActivity">
+        </activity>
+
     </application>
 
 </manifest> 

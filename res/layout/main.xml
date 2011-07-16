@@ -32,4 +32,12 @@
 			android:layout_height="wrap_content" android:text="Load"
 			android:onClick="onDialogButtonClick" />
 	</TableRow>
+	<TableRow>
+		<Spinner android:id="@+id/menuspinner"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:entries="@array/activity_menus" />
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Load"
+			android:onClick="onMenuButtonClick" />
+	</TableRow>
 </TableLayout>
