@@ -60,6 +60,7 @@ public final class R {
         public static final int radio_blue=0x7f070017;
         public static final int radio_red=0x7f070016;
         public static final int remove=0x7f07001d;
+        public static final int shortcutkey=0x7f070026;
         public static final int submenu=0x7f07001e;
         public static final int submenu_item1=0x7f07001f;
         public static final int submenu_item2=0x7f070020;

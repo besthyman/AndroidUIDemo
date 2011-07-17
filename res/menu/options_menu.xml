@@ -10,4 +10,6 @@
 		<item android:id="@+id/groupItem1" android:title="groupItem1" />
 		<item android:id="@+id/groupItem2" android:title="groupItem2" />
 	</group>
+	<item android:id="@+id/shortcutkey" android:title="shortcutkey" android:alphabeticShortcut="s">
+	</item>
 </menu>
