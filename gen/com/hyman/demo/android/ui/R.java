@@ -42,7 +42,7 @@ public final class R {
         public static final int editFirstName=0x7f07000c;
         public static final int editLastName=0x7f07000d;
         public static final int firstName=0x7f07000a;
-        public static final int help=0x7f07001f;
+        public static final int help=0x7f070022;
         public static final int icon=0x7f070018;
         public static final int image=0x7f070001;
         public static final int label=0x7f07001a;
@@ -51,12 +51,15 @@ public final class R {
         public static final int layoutspinner=0x7f07000e;
         public static final int listview=0x7f070013;
         public static final int menuspinner=0x7f070012;
-        public static final int new_game=0x7f07001e;
+        public static final int new_game=0x7f070021;
         public static final int pickDate=0x7f070006;
         public static final int pickTime=0x7f070008;
         public static final int radio_blue=0x7f070016;
         public static final int radio_red=0x7f070015;
         public static final int remove=0x7f07001d;
+        public static final int submenu=0x7f07001e;
+        public static final int submenu_item1=0x7f07001f;
+        public static final int submenu_item2=0x7f070020;
         public static final int text=0x7f070002;
         public static final int timeDisplay=0x7f070007;
         public static final int togglebutton=0x7f070017;

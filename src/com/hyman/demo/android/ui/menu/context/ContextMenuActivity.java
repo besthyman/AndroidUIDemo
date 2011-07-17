@@ -45,13 +45,25 @@ public class ContextMenuActivity extends Activity {
 		AdapterContextMenuInfo info = (AdapterContextMenuInfo) item
 				.getMenuInfo();
 		// info here is the same object with onCreateContextMenu's menuInfo
-		Log.d(TAG, "onContextItemSelected, menuInfo:" + info.toString());
+		// when trigger by submenu's items, info is null.
+		Log.d(TAG, "onContextItemSelected, menuInfo:" + info);
 		switch (item.getItemId()) {
 		case R.id.edit:
 			Log.d(TAG, "" + info.id);
 			return true;
 		case R.id.remove:
 			Log.d(TAG, "" + info.id);
+			return true;
+		case R.id.submenu:
+			Log.d(TAG, "submenu, " + info.id);
+			return true;
+		case R.id.submenu_item1:
+			Log.d(TAG, "submenu_item1");
+			Log.d(TAG, "info is " + info);
+			return true;
+		case R.id.submenu_item2:
+			Log.d(TAG, "submenu_item2");
+			Log.d(TAG, "info is " + info);
 			return true;
 		default:
 			return super.onContextItemSelected(item);
