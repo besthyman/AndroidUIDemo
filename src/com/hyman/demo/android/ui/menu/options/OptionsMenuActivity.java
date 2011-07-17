@@ -21,7 +21,7 @@ public class OptionsMenuActivity extends Activity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		MenuInflater inflater = getMenuInflater();
-		inflater.inflate(R.menu.game_menu, menu);
+		inflater.inflate(R.menu.options_menu, menu);
 		return true;
 	}
 

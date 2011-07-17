@@ -18,6 +18,7 @@ import com.hyman.demo.android.ui.layout.linear.LinearLayoutNestedActivity;
 import com.hyman.demo.android.ui.layout.relative.RelativeLayout2Activity;
 import com.hyman.demo.android.ui.layout.relative.RelativeLayoutActivity;
 import com.hyman.demo.android.ui.layout.table.TableLayoutActivity;
+import com.hyman.demo.android.ui.menu.context.ContextMenuActivity;
 import com.hyman.demo.android.ui.menu.options.OptionsMenuActivity;
 import com.hyman.demo.android.ui.widget.button.ButtonAllActivity;
 import com.hyman.demo.android.ui.widget.button.ButtonStatesActivity;
@@ -143,6 +144,9 @@ public class MainActivity extends Activity {
 		String value = spinner.getSelectedItem().toString();
 		if ("Options".equals(value)) {
 			Intent intent = new Intent(this, OptionsMenuActivity.class);
+			this.startActivity(intent);
+		} else if ("Context".equals(value)) {
+			Intent intent = new Intent(this, ContextMenuActivity.class);
 			this.startActivity(intent);
 		}
 	}

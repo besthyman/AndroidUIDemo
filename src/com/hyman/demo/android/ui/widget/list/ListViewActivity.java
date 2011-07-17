@@ -9,7 +9,7 @@ import com.hyman.demo.android.ui.R;
 
 public class ListViewActivity extends Activity {
 	@Override
-	public void onCreate(Bundle savedInstanceState) {
+	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.widget_list_layout);
 		String[] names = new String[] { "Linux", "Windows7", "Eclipse", "Suse",

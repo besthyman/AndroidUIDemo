@@ -111,6 +111,10 @@
         	android:label="OptionsMenuActivity">
         </activity>
 
+        <activity android:name=".menu.context.ContextMenuActivity"
+        	android:label="ContextMenuActivity">
+        </activity>
+
     </application>
 
 </manifest> 
