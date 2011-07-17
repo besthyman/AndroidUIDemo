@@ -48,6 +48,7 @@ public final class R {
         public static final int help=0x7f070022;
         public static final int icon=0x7f070018;
         public static final int image=0x7f070001;
+        public static final int intent_group=0x7f070027;
         public static final int label=0x7f07001a;
         public static final int lastName=0x7f07000b;
         public static final int layout_root=0x7f070000;
@@ -87,16 +88,17 @@ public final class R {
         public static final int main=0x7f03000d;
         public static final int menu_context=0x7f03000e;
         public static final int menu_options=0x7f03000f;
-        public static final int widget_button_all=0x7f030010;
-        public static final int widget_button_states=0x7f030011;
-        public static final int widget_list_footer=0x7f030012;
-        public static final int widget_list_full=0x7f030013;
-        public static final int widget_list_header=0x7f030014;
-        public static final int widget_list_item=0x7f030015;
-        public static final int widget_list_layout=0x7f030016;
-        public static final int widget_list_row=0x7f030017;
-        public static final int widget_list_row_button=0x7f030018;
-        public static final int widget_list_view=0x7f030019;
+        public static final int menu_options_intent=0x7f030010;
+        public static final int widget_button_all=0x7f030011;
+        public static final int widget_button_states=0x7f030012;
+        public static final int widget_list_footer=0x7f030013;
+        public static final int widget_list_full=0x7f030014;
+        public static final int widget_list_header=0x7f030015;
+        public static final int widget_list_item=0x7f030016;
+        public static final int widget_list_layout=0x7f030017;
+        public static final int widget_list_row=0x7f030018;
+        public static final int widget_list_row_button=0x7f030019;
+        public static final int widget_list_view=0x7f03001a;
     }
     public static final class menu {
         public static final int context_menu=0x7f060000;

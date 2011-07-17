@@ -12,4 +12,6 @@
 	</group>
 	<item android:id="@+id/shortcutkey" android:title="shortcutkey" android:alphabeticShortcut="s">
 	</item>
+	<group android:id="@+id/intent_group">
+	</group>
 </menu>
