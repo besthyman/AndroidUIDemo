@@ -6,6 +6,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.widget.ToggleButton;
 
 import com.hyman.demo.android.ui.R;
 
@@ -45,6 +46,8 @@ public class OptionsMenuActivity extends Activity {
 	public boolean onPrepareOptionsMenu(Menu menu) {
 		Log.d(TAG, "onPrepareOptionsMenu:" + menu.size());
 		menu.add("menu" + (menu.size() + 1));
+		ToggleButton toggle = (ToggleButton) findViewById(R.id.togglebutton);
+		menu.setGroupVisible(R.id.group1, toggle.isChecked());
 		return super.onPrepareOptionsMenu(menu);
 	}
 }

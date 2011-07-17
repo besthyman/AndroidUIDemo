@@ -3,6 +3,10 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="vertical">
+	<ToggleButton android:id="@+id/togglebutton"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:textOn="Show group" android:textOff="Hide group"
+		/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
